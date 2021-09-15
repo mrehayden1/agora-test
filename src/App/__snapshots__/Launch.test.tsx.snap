@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders matching snapshot 1`] = `
+<div>
+  <h2>
+    mission name
+  </h2>
+  <dl>
+    <dt>
+      Date
+    </dt>
+    <dd>
+      9/14/2021, 22:32:41
+    </dd>
+    <dt>
+      Launch details
+    </dt>
+    <dd>
+      details
+    </dd>
+  </dl>
+  <button
+    onClick={[Function]}
+  >
+    view rocket details
+  </button>
+</div>
+`;
+
+exports[`renders matching snapshot after expanding rocket details 1`] = `
+<div>
+  <h2>
+    mission name
+  </h2>
+  <dl>
+    <dt>
+      Date
+    </dt>
+    <dd>
+      9/14/2021, 22:32:41
+    </dd>
+    <dt>
+      Launch details
+    </dt>
+    <dd>
+      details
+    </dd>
+  </dl>
+  <h3
+    className="sr-only"
+  >
+    Rocket details
+  </h3>
+  <dl>
+    <dt>
+      Rocket name
+    </dt>
+    <dd>
+      rocket name
+    </dd>
+    <dt>
+      Rocket type
+    </dt>
+    <dd>
+      rocket type
+    </dd>
+  </dl>
+  <button
+    onClick={[Function]}
+  >
+    hide rocket details
+  </button>
+</div>
+`;

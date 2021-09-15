@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders launches in correct order (name desc) 1`] = `
+<Fragment>
+  <Launch
+    details="details two"
+    key="0"
+    launch_date_unix={1631655160}
+    mission_name="mission two"
+    rocket={
+      Object {
+        "rocket_name": "rocket two",
+        "rocket_type": "rocket type two",
+      }
+    }
+  />
+  <Launch
+    details="details one"
+    key="1"
+    launch_date_unix={1631655161}
+    mission_name="mission one"
+    rocket={
+      Object {
+        "rocket_name": "rocket one",
+        "rocket_type": "rocket type one",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`renders launches in correct order (name) 1`] = `
+<Fragment>
+  <Launch
+    details="details one"
+    key="0"
+    launch_date_unix={1631655161}
+    mission_name="mission one"
+    rocket={
+      Object {
+        "rocket_name": "rocket one",
+        "rocket_type": "rocket type one",
+      }
+    }
+  />
+  <Launch
+    details="details two"
+    key="1"
+    launch_date_unix={1631655160}
+    mission_name="mission two"
+    rocket={
+      Object {
+        "rocket_name": "rocket two",
+        "rocket_type": "rocket type two",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`renders launches in correct order (oldest) 1`] = `
+<Fragment>
+  <Launch
+    details="details two"
+    key="0"
+    launch_date_unix={1631655160}
+    mission_name="mission two"
+    rocket={
+      Object {
+        "rocket_name": "rocket two",
+        "rocket_type": "rocket type two",
+      }
+    }
+  />
+  <Launch
+    details="details one"
+    key="1"
+    launch_date_unix={1631655161}
+    mission_name="mission one"
+    rocket={
+      Object {
+        "rocket_name": "rocket one",
+        "rocket_type": "rocket type one",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`renders launches in correct order 1`] = `
+<Fragment>
+  <Launch
+    details="details one"
+    key="0"
+    launch_date_unix={1631655161}
+    mission_name="mission one"
+    rocket={
+      Object {
+        "rocket_name": "rocket one",
+        "rocket_type": "rocket type one",
+      }
+    }
+  />
+  <Launch
+    details="details two"
+    key="1"
+    launch_date_unix={1631655160}
+    mission_name="mission two"
+    rocket={
+      Object {
+        "rocket_name": "rocket two",
+        "rocket_type": "rocket type two",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`renders launches when search present 1`] = `
+<Fragment>
+  <Launch
+    details="details one"
+    key="0"
+    launch_date_unix={1631655161}
+    mission_name="mission one"
+    rocket={
+      Object {
+        "rocket_name": "rocket one",
+        "rocket_type": "rocket type one",
+      }
+    }
+  />
+</Fragment>
+`;
